@@ -1,0 +1,24 @@
+{
+  "name": "reexport-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "babel": "./node_modules/.bin/babel pages --out-dir lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13"
+  },
+  "dependencies": {
+    "babel-plugin-treeshake-reexport": "^0.0.2",
+    "babel-preset-env": "^1.7.0"
+  }
+}
